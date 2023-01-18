@@ -1,0 +1,24 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --red: rgba(158, 12, 33, 1);
+  --darkRed: #681010;
+  --black: rgb(0, 0, 0);
+  --grey: rgb(56, 56, 56);
+  --green: #007411;
+  --black-opa: rgb(0, 0, 0, 0.8);
+  --gold-gradient: radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #fdb931 8%, #cba044 30%, #8a6e2f 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #ffffff 0%, #ffffac 8%, #d1b464 25%, #856d34 62.5%, #8f763a 100%);
+  --silver-gradient: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  --red-gradient: linear-gradient(178.2deg, rgba(118, 8, 23, 1) 10.9%, rgba(158, 12, 33, 1) 62.6%);
+  --black-gradient: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  --white-gradient: linear-gradient(#fcf7f8, #ede9e6, #fcf7f8);
+  --green-gradient: linear-gradient(#007411, #2e873b, #007411);
+  --standard-transition: 0.3s cubic-bezier(0.29, -0.37, 0.57, 1.29);
+  --long-transition: 0.6s ease-in-out;
+  --shawdow: rgba(19, 19, 19, 0.9) 0px 7px 29px 0px;
+  --primary-font: "Marcellus", serif;
+  --secondary-font: "Marcellus", serif;
+}
+
+* {
+  font-family: var(--primary-font);
+}
